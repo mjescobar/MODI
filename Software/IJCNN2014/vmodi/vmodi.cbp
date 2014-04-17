@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vmodi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/vmodi" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-O -pthread -I/usr/include/gstreamer-0.10 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/libxml2 -I/usr/X11R6/include -g -I$(INC_DIR)" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lxml2 -lglib-2.0 -L/usr/X11R6/lib -L/usr/local/lib -L$(LIB_DIR)" />
+					<Add option="-lxbee -lARgsub -lARvideo -lAR -lpthread -lglut -lGLU -lGL -lXi -lX11 -lm -pthread -lgstreamer-0.10 -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lxml2 -lglib-2.0" />
+					<Add directory="lib" />
+				</Linker>
+				<Environment>
+					<Variable name="LIB_DIR" value="/lib" />
+					<Variable name="INC_DIR" value="/include" />
+				</Environment>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="bmap.cpp" />
+		<Unit filename="bmap.h" />
+		<Unit filename="decontroller.cpp" />
+		<Unit filename="decontroller.h" />
+		<Unit filename="drcontroller.cpp" />
+		<Unit filename="drcontroller.h" />
+		<Unit filename="drcontroller2.cpp" />
+		<Unit filename="drcontroller2.h" />
+		<Unit filename="drcontrollercomps.cpp" />
+		<Unit filename="drcontrollercomps.h" />
+		<Unit filename="modi.cpp" />
+		<Unit filename="modi.h" />
+		<Unit filename="vmodi.cpp" />
+		<Unit filename="vmodi.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,269 @@
+# depslib dependency file v1.0
+1395825462 source:/home/fabian/Documentos/2VIRTUAL_MODI/vmodi/bmap.cpp
+	"bmap.h"
+	<stdlib.h>
+	<stdio.h>
+
+1395825024 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/bmap.h
+	<string.h>
+
+1395826405 source:/home/fabian/Documentos/2VIRTUAL_MODI/vmodi/modi.cpp
+	"modi.h"
+	"math.h"
+	<stdlib.h>
+
+1395793846 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/modi.h
+	"bmap.h"
+	<stdio.h>
+
+1396658832 source:/home/fabian/Documentos/2VIRTUAL_MODI/vmodi/vmodi.cpp
+	"vmodi.h"
+	"modi.h"
+
+1396443091 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/vmodi.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<xbee.h>
+	<string.h>
+	<math.h>
+
+1156110498 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1396657866 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/config.h
+
+1122685316 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/param.h
+	<AR/config.h>
+
+1169512767 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1396657847 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxV4L2.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1169512767 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoWin32DirectShow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1156110527 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxV4L.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1396657847 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxV4L2.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev2.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1156110527 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxDV.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1156110527 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinux1394Cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1151673193 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoGStreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1156110527 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoSGI.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1169512767 /home/fabian/Documentos/2VIRTUAL_MODI/vmodi/include/AR/sys/videoMacOSX.h
+
+1396838745 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/bmap.cpp
+	"bmap.h"
+	<stdlib.h>
+	<stdio.h>
+
+1396835020 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/bmap.h
+	<string>
+
+1397048724 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/decontroller.cpp
+	"decontroller.h"
+
+1396835054 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/decontroller.h
+	"modi.h"
+	<cstdlib>
+	<vector>
+
+1396997120 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/modi.h
+	"bmap.h"
+	<math.h>
+	<stdio.h>
+
+1397120060 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontroller.cpp
+	"drcontroller.h"
+
+1397120100 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontroller.h
+	"drcontrollercomps.h"
+	<cstdlib>
+
+1397260910 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontrollercomps.h
+	"modi.h"
+	<vector>
+	<map>
+	<list>
+
+1397009649 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/modi.cpp
+	"modi.h"
+	"math.h"
+	<stdlib.h>
+
+1397253748 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/vmodi.cpp
+	"vmodi.h"
+
+1396979030 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/vmodi.h
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<xbee.h>
+	<string.h>
+	"modi.h"
+	"decontroller.h"
+	"drcontroller.h"
+	"drcontroller2.h"
+
+1156110498 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1396657866 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/config.h
+
+1122685316 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/param.h
+	<AR/config.h>
+
+1169512767 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1396657847 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxV4L2.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1169512767 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoWin32DirectShow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1156110527 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxV4L.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1396657847 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxV4L2.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev2.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1156110527 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinuxDV.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1156110527 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoLinux1394Cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1151673193 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoGStreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1156110527 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoSGI.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1169512767 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/include/AR/sys/videoMacOSX.h
+
+1397348914 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontrollercomps.cpp
+	"drcontrollercomps.h"
+
+1397349452 source:/home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontroller2.cpp
+	"drcontroller2.h"
+
+1396979227 /home/fabianrubilar/Documents/2VIRTUAL_MODI/vmodi/drcontroller2.h
+	"drcontrollercomps.h"
+	<cstdlib>
+
